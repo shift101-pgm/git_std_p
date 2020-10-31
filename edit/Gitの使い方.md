@@ -59,7 +59,7 @@ $ git commit -a -m "commitコメント"
 適用した内容で、リモートリポジトリへアップロードする。
 
 ```shell
-$ git push origin master
+$ git push origin [ブランチ名]
 ```
 
 
@@ -69,6 +69,6 @@ $ git push origin master
 pushの逆。リモートリポジトリの変更をローカルリポジトリへ反映（DL）
 
 ```shell
-$ git pull origin master
+$ git pull origin [ブランチ名]
 ```
 
